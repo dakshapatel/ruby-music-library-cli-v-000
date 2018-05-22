@@ -19,7 +19,7 @@ class MusicLibraryController
       puts "What would you like to do?"
 
       input = gets.strip
-      if input == 'list songs' 
+      if input == 'list songs'
         list_songs
       elsif input == 'list artists'
         list_artists
@@ -31,14 +31,12 @@ class MusicLibraryController
         list_songs_by_genre
       elsif input == 'play song'
         play_song
-
-      end 
-        
-      
+      end
     end
+  end
 
-    
-      
+
+
 
   end
 
