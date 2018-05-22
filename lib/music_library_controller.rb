@@ -44,7 +44,7 @@ class MusicLibraryController
        puts "invalid action"
      end
 
-    end
+    
   end
 
   def list_songs
