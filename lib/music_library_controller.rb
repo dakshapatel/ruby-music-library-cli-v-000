@@ -19,6 +19,9 @@ class MusicLibraryController
       puts "What would you like to do?"
 
       input = gets.strip
+
+      input = gets.artists
+
     end
   end
 
@@ -34,7 +37,7 @@ class MusicLibraryController
     end
   end
 
-  
+
 
   def list_genres
     Genre.all.sort_by(&:name).each.with_index(1) do |gn,idx|
